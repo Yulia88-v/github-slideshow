@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Sea</title>
+<!--    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="background">
+            <div class="container">
+                <nav class="nav">
+                    <a href="/" class="nav__logo-link">black sea</a>
+                    <div class="nav__links">
+                        <a href="#" class="nav__link">home</a>
+                        <a href="#" class="nav__link">about me</a>
+                        <a href="#" class="nav__link">portfolio</a>
+                        <a href="#" class="nav__link">contact me</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">
+                <h1 class="title__hedge">We need the tonic of wildness</h1>
+                <a href="#" class="title__button">Read more</a>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="info">
+                <h2 class="info__hedge">At the same time that we are earnest to explore
+                    & learn all things</h2>
+                <p class="info__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="info__images">
+                    <!--<img src="img/icon_1.png" class="info__image" alt="Basket">-->
+                    <!--<img src="img/icon_2.png" class="info__image" alt="World">-->
+                    <!--<img src="img/icon_3.png" class="info__image" alt="Bag">-->
+                    <img src="img/icon_1.png" class="info__image" alt="Basket">
+                    <img src="img/icon_2.png" class="info__image" alt="World">
+                    <img src="img/icon_3.png" class="info__image" alt="Bag">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="user-section">
+        <div class="container">
+            <div class="user">
+                <div class="user__wrapper">
+                    <img class="user__photo" src="img/photo.png" alt="Photo">
+                    <div class="user__name">
+                        <span>dhavan</span>
+                    </div>
+                </div>
+                <div class="user__info">
+                    <p class="user__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="userMessage">
+        <div class="container">
+            <div class="circle">
+                <div class="circle__wrapper">
+                    <form action="">
+                        <input class="circle__inputField" type="text" placeholder="Name">
+                        <input class="circle__inputField" type="email" placeholder="email address">
+                        <textarea class="circle__inputField" name="Message" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                        <button class="circle__button" type="submit"><img src="img/button_icon.png" alt="Submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">copyright © 2012 css author.com</p>
+        </div>
+    </footer>
+</body>
+</html>
